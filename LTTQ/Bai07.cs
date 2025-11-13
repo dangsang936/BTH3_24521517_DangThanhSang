@@ -40,6 +40,7 @@ namespace LTTQ
             else
                 MessageBox.Show("Ghế đã được chọn.");
         }
+        //button tính tiền
         private void button17_Click(object sender, EventArgs e)
         {
             int ans = 0;
@@ -105,6 +106,7 @@ namespace LTTQ
             
         }
 
+        //button hủy chọn
         private void button19_Click(object sender, EventArgs e)
         {
             while(index>=0)
@@ -162,6 +164,7 @@ namespace LTTQ
             textBox1.Text = "0";
         }
 
+        //button thoát
         private void button18_Click(object sender, EventArgs e)
         {
             this.Close();

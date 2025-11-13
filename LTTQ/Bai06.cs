@@ -98,7 +98,7 @@ namespace LTTQ
                     if (Double.Parse(textBox1.Text, CultureInfo.InvariantCulture) != 0)
                         textBox1.Text = (temp_num / Double.Parse(textBox1.Text, CultureInfo.InvariantCulture)).ToString();
                     else
-                        textBox1.Text = "Error";
+                        MessageBox.Show("Lỗi!");
                     break;
                 default:
                     break;
@@ -151,14 +151,14 @@ namespace LTTQ
             if (val != 0)
                 textBox1.Text = (1.0 / val).ToString();
             else
-                textBox1.Text = "Error";
+                MessageBox.Show("Lỗi!");
         }
 
         // button đổi dấu +/-
         private void button19_Click(object sender, EventArgs e)
         {
             double val = Double.Parse(textBox1.Text, CultureInfo.InvariantCulture);
-            textBox1.Text = (val * -1).ToString();
+            textBox1.Text = (val * -1).ToString(CultureInfo.InvariantCulture);
         }
 
         //button MC xóa giá trị memory

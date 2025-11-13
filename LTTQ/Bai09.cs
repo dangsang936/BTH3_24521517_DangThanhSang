@@ -41,6 +41,7 @@ namespace LTTQ
             }
         }
 
+        // button lưu thông tin
         private void button3_Click(object sender, EventArgs e)
         {
             if (textBox1.TextLength == 0 
@@ -102,6 +103,7 @@ namespace LTTQ
             }
         }
 
+        //button xóa chọn
         private void button4_Click(object sender, EventArgs e)
         {
             listBox1.Items.Clear();

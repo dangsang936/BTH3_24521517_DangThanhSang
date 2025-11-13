@@ -56,7 +56,7 @@
             this.button16.Enabled = false;
             this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button16.ForeColor = System.Drawing.Color.SandyBrown;
-            this.button16.Location = new System.Drawing.Point(-7, 3);
+            this.button16.Location = new System.Drawing.Point(-3, 12);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(533, 76);
             this.button16.TabIndex = 32;

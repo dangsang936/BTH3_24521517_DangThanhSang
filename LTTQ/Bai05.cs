@@ -16,6 +16,7 @@ namespace LTTQ
         {
             InitializeComponent();
         }
+        // + button
         private void button1_Click(object sender, EventArgs e)
         {
             if (!int.TryParse(textBox1.Text, out _) || !int.TryParse(textBox2.Text, out _))
@@ -28,6 +29,7 @@ namespace LTTQ
             textBox3.Text = ans.ToString();
         }
 
+        // button -
         private void button2_Click(object sender, EventArgs e)
         {
             if (!int.TryParse(textBox1.Text, out _) || !int.TryParse(textBox2.Text, out _))
@@ -40,6 +42,7 @@ namespace LTTQ
             textBox3.Text = ans.ToString();
         }
 
+        // button X
         private void button3_Click(object sender, EventArgs e)
         {
             if (!int.TryParse(textBox1.Text, out _) || !int.TryParse(textBox2.Text, out _))
@@ -52,6 +55,7 @@ namespace LTTQ
             textBox3.Text = ans.ToString();
         }
 
+        // button '/'
         private void button4_Click(object sender, EventArgs e)
         {
             if (!int.TryParse(textBox1.Text, out _) || !int.TryParse(textBox2.Text, out _))
